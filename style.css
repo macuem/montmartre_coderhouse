@@ -1,0 +1,648 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: -webkit-linear-gradient(to right, #be93c5, #7bc6cc);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #be93c5, #7bc6cc)
+}
+
+.ulNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.liNav .aNav,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.liNav .aNav:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.liNav.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content .aNav {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content .aNav:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header {
+  justify-content: space-between;
+  /* background-color: thistle; */
+
+  display: block;
+  margin: 0px;
+  margin-bottom: 25px;
+  /* background-image: url(./assets/parisheader.jpg); */
+  height: 400px;
+}
+
+.logoGatitoInicio {
+  width: 250px;
+  height: 250px;
+}
+
+.logoGatito {
+  height: 60px;
+  cursor: pointer;
+  margin: 10px 10px 10px 10px;
+  vertical-align: bottom;
+}
+
+ul li {
+  display: inline-block;
+}
+
+.liProductos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500px;
+  font-size: 16px;
+
+  list-style-type: none;
+  margin: 5px;
+  position: sticky;
+}
+
+.textNav {
+  color: black;
+}
+
+.titulo1 {
+  color: rgb(53, 0, 53);
+
+  font-family: "Ephesis", "cursive";
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  position: relative;
+}
+
+.subtituloInicio {
+  color: rgb(53, 0, 53);
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.subtitulo1 {
+  color: rgb(53, 0, 53);
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 10px;
+
+
+}
+
+.subtitulo2 {
+  color: rgb(53, 0, 53);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.descripcion1 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bodyColor {
+  background-color: thistle;
+}
+
+.mainIndex {
+  padding-top: 10%;
+}
+
+.masInfo {
+  color: rgb(31, 31, 31);
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.instaLogo {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.tituloSecciones {
+  color: rgb(53, 0, 53);
+  font-family: "Ephesis", "cursive";
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tituloSecciones2 {
+  color: rgb(53, 0, 53);
+  font-family: "Ephesis", "cursive";
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.bodyProductos {
+  background: rgb(224, 190, 255);
+  background: linear-gradient(0deg,
+      rgba(224, 190, 255, 1) 7%,
+      rgba(164, 166, 200, 1) 100%);
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.prodCard {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  margin: 5px 10px 5px 10px;
+  width: 29%;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  transform: scale(1);
+  transition: transform 0.3s;
+}
+
+.prodImg {
+  width: 250px;
+  height: 250px;
+  align-items: center;
+  padding-left: 100px;
+  padding-top: 25px;
+}
+
+.prodCard:hover {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 1);
+  transform: scale(1.03);
+}
+
+.price {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+
+.descripProductos {
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.prodCard button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.prodCard button:hover {
+  opacity: 0.7;
+}
+
+/* CONSEJOS */
+
+.consejos1 {
+  display: flex;
+  padding-top: 5%;
+}
+
+.consejos2 {
+  display: flex;
+  padding-top: 8%;
+  justify-content: space-around;
+}
+
+.subtituloConsejos {
+
+  color: rgb(53, 0, 53);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+/* SOBRE NOSOTROS */
+
+.subtitulo12 {
+  color: rgb(53, 0, 53);
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+.descriTienda {
+  flex-wrap: nowrap;
+  color: rgb(53, 0, 53);
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  height: 50%;
+  width: 50%;
+  padding-left: 15%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+
+}
+
+
+
+/* CARDS CSS */
+.cardsContenedor {
+  display: flex;
+  max-width: 90%;
+
+  margin-left: 70px;
+}
+
+.contenidoCards {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cards {
+  margin: 5px 10px 5px 10px;
+  padding-right: 5px;
+  width: 20%;
+  text-align: center;
+  height: 320px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  transform: scale(1);
+  transition: transform 0.3s;
+  background-color: whitesmoke;
+}
+
+.cards:hover {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 1);
+  transform: scale(1.03);
+}
+
+.cards i {
+  margin: 30px 0 20px 0;
+  color: #cc9199;
+  font-size: 25px;
+}
+
+.descripCards {
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.tituloCards {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+.videoContainer {
+  text-align: center;
+  display: flex;
+  padding-top: 50px;
+
+}
+
+.videoContainer .video {
+  margin: 0 auto;
+}
+
+
+
+.masInfo1 {
+  font-family: "Ephesis", "cursive";
+  font-size: 45px;
+  justify-content: center;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 80px;
+
+}
+
+
+.titulo1 {
+  animation-name: animTitulo;
+  animation-duration: 2s;
+}
+
+.tituloSecciones2 {
+  animation-name: animTitulo;
+  animation-duration: 2s;
+}
+
+@keyframes animTitulo {
+  0% {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  100% {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+
+
+/* FORM */
+
+
+
+.containerForm1 {
+  display: flex;
+  padding-left: 25%;
+  padding-bottom: 10vh;
+}
+
+.containerForm {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 20px;
+  
+  padding-top: 40px;
+  padding-left: 50px;
+  justify-content: center;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/002/536/966/non_2x/light-purple-abstract-bright-texture-colorful-abstract-illustration-with-gradient-background-for-ui-designers-vector.jpg);
+  border-radius: 20px;
+  
+}
+
+.nameForm {
+  display: flex;
+  padding-bottom: 3%;
+  padding-right: 10px;
+  
+  
+}
+
+
+
+.nombre,
+.mail {
+  width: calc(100% / 2 - 20px);
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+
+.consultas {
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  text-indent: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.consultaCs {
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+.button {
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(255, 146, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 15px 40px;
+  outline: 2px solid rgb(22, 0, 22);
+  outline-offset: 2px;
+  
+  
+  }
+
+
+  .button:hover {
+  
+  transform: scale(1.03);
+  }
+
+
+
+.formButton {
+  padding-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* GRIDS GALLERY */
+
+.bodyGallery {
+  margin: 0;
+  
+}
+.containerGallery {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas:
+    'A'
+    'B' 
+    'C'
+    'D'   
+    'E';
+}
+@media (min-width: 576px) {
+  .containerGallery {
+    grid-template-columns: 1.52fr 1fr 1fr 1.525fr;
+    grid-template-areas:
+      'A  B  C  E'
+      'A  D  D  E';
+  } 
+}
+
+.imgGallery:nth-child(1) {
+ grid-area: A;
+}
+.imgGallery:nth-child(2) {
+ grid-area: B;
+}
+.imgGallery:nth-child(3) {
+ grid-area: C;
+}
+.imgGallery:nth-child(4) {
+ grid-area: D;
+}
+.imgGallery:nth-child(5) {
+ grid-area: E;
+}
+.imgGallery {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footer {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 50px;
+  background-color: rgb(209, 209, 209);
+  height: 10vh;
+  display: block;
+  list-style-type: none;
+
+  clear: both;
+  position: relative;
+
+
+}
+
+.footer1 {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  padding-top: 2%;
+}
+
+/* QUERIES */
+
+@media (max-width: 600px) {
+  .titulo1 {
+    font-size: 50px;
+    color: red;
+  }
+
+  .subtitulo1 {
+    margin-top: 50px;
+  }
+
+  .descripcion1 {
+    text-align: center;
+  }
+
+  .ulNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardsContenedor {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .cardsContenedor .contenidoCards {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .cards {
+    width: 80%;
+  }
+
+
+
+  .masinfo {
+    text-align: center;
+  }
+
+  .video {
+    width: 100%;
+  }
+}
