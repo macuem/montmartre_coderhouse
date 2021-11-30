@@ -1,114 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO TAGS -->
+    <meta
+      name="description"
+      content="¿Todavía tenes dudas? Dejanos un mensaje por acá y te asesoramos "
+    />
+    <meta
+      name="keywords"
+      content="asesoramiento, asesorar, contacto, montmartre, dudas, consultas, "
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- SEO TAGS -->
-  <meta name="description" content="¿Todavía tenes dudas? Dejanos un mensaje por acá y te asesoramos "/>
-  <meta name="keywords" content="asesoramiento, asesorar, contacto, montmartre, dudas, consultas, "/>
-
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style.css" />
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Open+Sans:wght@300&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ephesis&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Contactate con Nosotros</title>
-</head>
+  </head>
 
-<body class="bodyColor">
-    <div class="backgroundImageContacto">
+  <body class="bodyColor">
+    <header class="header">
+      <!-- Menu -->
+      <nav class="nav">
+        <ul class="list">
+          <a href="../index.html"
+            ><img
+              class="logo"
+              src="../assets/logoGatitoSolo.png"
+              alt="LogoGatito"
+          /></a>
 
+          <li class="item"><a class="link" href="../index.html">HOME</a></li>
+          <li class="item">
+            <a href="./productos.html" class="link">PRODUCTOS</a>
+          </li>
+          <li class="item">
+            <a class="link" href="./sobrenosotros.html">NOSOTROS</a>
+          </li>
+          <li class="item">
+            <a class="link" href="./consejos.html">CONSEJOS</a>
+          </li>
+          <li class="item">
+            <a class="link" href="./gallery.html">GALERIA</a>
+          </li>
+          <li class="item">
+            <a class="link" href="./contacto.html">CONTACTO</a>
+          </li>
+        </ul>
+      </nav>
 
-        <header class="header">
-            <nav class="nav">
-                <ul class="ulNav">
-                    <a href="../index.html"> <img class="logoGatito" src="../assets/logoGatitoSolo.png"
-                            alt="LogoGatito"></a>
+      <!-- Titulo-->
 
-                    <li class="liNav"><a class="aNav" href="../index.html">HOME</a></li>
-                    <li class="dropdown">
-                        <a href="productos.html" class="dropbtn">PRODUCTOS</a>
-                        <div class="dropdown-content">
-                            <a class="aNav" href="#">Link 1</a>
-                            <a class="aNav" href="#">Link 2</a>
-                            <a class="aNav" href="#">Link 3</a>
+      <h1 class="title">Contacto</h1>
+    </header>
+    <main class="main">
+      <h1 class="subtitle">¿Tenes Dudas?</h1>
 
-                        </div>
-                    </li>
-                    <li class="liNav"><a class="aNav" href="sobrenosotros.html">NOSOTROS</a></li>
-                    <li class="liNav"><a class="aNav" href="consejos.html">CONSEJOS</a></li>
-                    <li class="liNav"><a class="aNav" href="gallery.html">GALERIA</a></li>
-                    <li class="liNav"><a class="aNav" href="contacto.html">CONTACTO</a></li>
-                </ul>
-            </nav>
+      <h3 class="description">
+        Dejanos tu consulta y te responderemos a la brevedad
+      </h3>
 
-            <main>
-                <h1 class="tituloSecciones2">¿Tenes Dudas?</h1>
-
-
-                <h3 class="subtitulo1">Dejanos tu consulta y te responderemos a la brevedad</h3>
-
-
-
-        </header>
-    </div>
+      <!-- Formulario -->
+      <section class="contactForm">
+        <form class="form">
+          <input
+            name="name"
+            placeholder="¿Cuál es tu nombre?"
+            class="input"
+            required
+          />
+          <input
+            name="emailaddress"
+            placeholder="¿Cuál es tu email?"
+            class="input"
+            type="email"
+            required
+          />
+          <textarea
+            rows="4"
+            cols="50"
+            name="subject"
+            placeholder="Ingrese su mensaje"
+            class="textarea"
+            required
+          ></textarea>
+          <input name="submit" class="button" type="submit" value="Enviar" />
+        </form>
+      </section>
     </main>
-    <!-- Formulario -->
-<section>
-    <div class="containerForm1">
-    <div class="containerForm">
-
-        <div class="nombre">
-            <label for="nombre">Nombre:</label>
-            <input placeholder="nombre" />
-        </div>
-        <div class="mail">
-
-            <label for="mail">Correo:</label>
-
-            <input placeholder="email" />
-        </div>
-        <div class="consultas">
-            <label for="consulta">Consulta</label>
-            <textarea name="consulta" id="" cols="30" rows="10" placeholder="Ingresa Tu Consulta"
-                class="consultaCs"></textarea>
-        </div>
-        <div class="formButton">
-            <input class="button" type="submit" value="Enviar Consulta">
-        </div>
-    </div>
-    
-</div>
-
-</section>
-
-
     <!-- Pie de pagina-->
     <footer class="footer">
-        <ul>
-            <li><a href="">Terms and Conditions</a></li>
-            <li><a href="">Terms of Use</a></li>
-            <li><a href="">Privacy Policy</a></li>
-            <li><a href="">FAQ</a></li>
+      <div class="column">
+        <ul class="list">
+          <li class="item"><a href="" class="link">Terms and Conditions</a></li>
+          <li class="item"><a href="" class="link">Terms of Use</a></li>
+          <li class="item"><a href="" class="link">Privacy Policy</a></li>
+          <li class="item"><a href="" class="link">FAQ</a></li>
         </ul>
-        <p class="footer1"></p>
-        *Proyecto por Macarena Elkin</p>
+        <p class="madeBy">Made with ❤️ by Macarena Elkin</p>
+      </div>
     </footer>
-
-
-
-
-
-
-
-
-</body>
-
+  </body>
 </html>

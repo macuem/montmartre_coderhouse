@@ -1,127 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- SEO TAGS -->
-  <meta name="description" content="Conoce nuestros productos sin químicos ni parabenos. "/>
-  <meta name="keywords" content=" productos, shampoo solido, mascarillas, agua micelar, tonico facial, montmartre, natural, velas, "/>
-    <link rel="stylesheet" href="../style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO TAGS -->
+    <meta
+      name="description"
+      content="Conoce nuestros productos sin químicos ni parabenos. "
+    />
+    <meta
+      name="keywords"
+      content=" productos, shampoo solido, mascarillas, agua micelar, tonico facial, montmartre, natural, velas, "
+    />
+    <link rel="stylesheet" href="../style.css" />
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Open+Sans:wght@300&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ephesis&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Nuestros Productos</title>
-</head>
+  </head>
 
-<body class="bodyColor">
-
+  <body class="bodyColor">
     <header class="header">
-        <!-- Menu -->
+      <!-- Menu -->
+      <nav class="nav">
+        <ul class="list">
+          <a href="../index.html"
+            ><img
+              class="logo"
+              src="../assets/logoGatitoSolo.png"
+              alt="LogoGatito"
+          /></a>
 
-        <nav class="nav">
-            <ul class="ulNav">
-                <a href="../index.html"> <img class="logoGatito" src="../assets/logoGatitoSolo.png"
-                        alt="LogoGatito"></a>
+          <li class="item"><a class="link" href="../index.html">HOME</a></li>
+          <li class="item">
+            <a href="./productos.html" class="link">PRODUCTOS</a>
+          </li>
+          <li class="item">
+            <a class="link" href="./sobrenosotros.html">NOSOTROS</a>
+          </li>
+          <li class="item">
+            <a class="link" href="./consejos.html">CONSEJOS</a>
+          </li>
+          <li class="item">
+            <a class="link" href="./gallery.html">GALERIA</a>
+          </li>
+          <li class="item">
+            <a class="link" href="./contacto.html">CONTACTO</a>
+          </li>
+        </ul>
+      </nav>
 
-                <li class="liNav"><a class="aNav" href="../index.html">HOME</a></li>
-                <li class="dropdown">
-                    <a href="productos.html" class="dropbtn">PRODUCTOS</a>
-                    <div class="dropdown-content">
-                        <a class="aNav" href="#">Link 1</a>
-                        <a class="aNav" href="#">Link 2</a>
-                        <a class="aNav" href="#">Link 3</a>
+      <!-- Titulo-->
 
-                    </div>
-                </li>
-                <li class="liNav"><a class="aNav" href="sobrenosotros.html">NOSOTROS</a></li>
-                <li class="liNav"><a class="aNav" href="consejos.html">CONSEJOS</a></li>
-                <li class="liNav"><a class="aNav" href="gallery.html">GALERIA</a></li>
-                <li class="liNav"><a class="aNav" href="contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
-
-
-
-        <h1 class="tituloSecciones2">Nuestros productos</h1>
+      <h1 class="title">Nuestros Productos</h1>
     </header>
 
-    <main>
+    <main class="main">
+      <section class="cards">
+        <div class="product">
+          <img
+            src="../assets/aguaMicelar.jpg"
+            class="image"
+            alt="Agua Micelar"
+          />
+          <h1 class="title">Agua Micelar</h1>
+          <p class="price">300$</p>
+          <p class="description">
+            Compuesta por Áloe de Vera y Manzanilla, contiene propiedades
+            antibacterianas y astringentes, regula el sebo y es ideal para
+            tratar el acné. Limpia, tonifica, calma y suaviza la piel
+          </p>
+          <button class="button">Agregar al Carrito</button>
+        </div>
 
-        <section class="products">
+        <div class="product">
+          <img
+            src="../assets/tonicoFacial.jpg"
+            class="image"
+            alt="Tonico Facial"
+          />
+          <h1 class="title">Tónico Facial</h1>
+          <p class="price">300$</p>
+          <p class="description">
+            Compuesta por Áloe de Vera y Manzanilla, contiene propiedades
+            antibacterianas y astringentes, regula el sebo y es ideal para
+            tratar el acné. Limpia, tonifica, calma y suaviza la pie
+          </p>
+          <button class="button">Agregar al Carrito</button>
+        </div>
 
-            <div class="prodCard">
-                <img src="../assets/aguamicelar.jpg" class="prodImg" alt="Agua Micelar">
-                <h1>Agua Micelar</h1>
-                <p class="price">300$</p>
-                <p class="descripProductos">Compuesta por Áloe de Vera y Manzanilla, contiene propiedades antibacterianas y
-                    astringentes, regula el sebo y es ideal para tratar el acné. Limpia, tonifica, calma y suaviza la piel</p>
-                <p><button>Agregar al Carrito</button></p>
-            </div>
+        <div class="product">
+          <img src="../assets/mascarilla.jpg" class="image" alt="Mascarilla" />
+          <h1 class="title">Mascarilla</h1>
+          <p class="price">300$</p>
+          <p class="description">
+            💫Propiedades cicatrizante, combate acné y puntos negros, es
+            regenerante, regula la producción del sebo, es rica en minerales, es
+            matificante, antiinflamatoria
+          </p>
+          <button class="button">Agregar al Carrito</button>
+        </div>
 
-            <div class="prodCard">
-                <img src="../assets/tonicofacial.jpg" class="prodImg" alt="Tonico Facial">
-                <h1>Tónico Facial</h1>
-                <p class="price">300$</p>
-                <p class="descripProductos">Compuesta por Áloe de Vera y Manzanilla, contiene propiedades antibacterianas y
-                    astringentes, regula el sebo y es ideal para tratar el acné. Limpia, tonifica, calma y suaviza la pie</p> <p><button>Agregar al Carrito</button></p>
-            </div>
+        <div class="product">
+          <img
+            src="../assets/shampooSolido.jpg"
+            class="image"
+            alt="Shampoo Solido"
+          />
+          <h1 class="title">Shampoo Solido</h1>
+          <p class="price">300$</p>
+          <p class="description">
+            Consúltanos por nuestros Shampoos Sólidos personalizados Hacemos
+            Shampoos acordé a cada tipo de cabello y problema a solucionar
+          </p>
+          <button class="button">Agregar al Carrito</button>
+        </div>
 
-
-            <div class="prodCard">
-                <img src="../assets/mascarilla.jpg" class="prodImg" alt="Mascarilla">
-                <h1>Mascarilla</h1>
-                <p class="price">300$</p>
-                <p class="descripProductos">💫Propiedades cicatrizante, combate acné y puntos negros, es regenerante, regula la producción del
-                    sebo, es rica en minerales, es matificante, antiinflamatoria </p>
-                <p><button>Agregar al Carrito</button></p>
-            </div>
-
-
-            <div class="prodCard">
-                <img src="../assets/shampoosolido.jpg" class="prodImg" alt="Shampoo Solido">
-                <h1>Shampoo Solido</h1>
-                <p class="price">300$</p>
-                <p class="descripProductos">Consúltanos por nuestros Shampoos Sólidos personalizados
-                    Hacemos Shampoos acordé a cada tipo de cabello y problema a solucionar ( caspa, sensibilidad, grasitud en exceso, resequedad, etc )</p>
-                <p><button>Agregar al Carrito</button></p>
-            </div>
-
-            <div class="prodCard">
-                <img src="../assets/velas.jpg" class="prodImg" alt="Velas">
-                <h1>Velas</h1>
-                <p class="price">300$</p>
-                <p class="descripProductos">Son preparadas para dar masajes, no queman la piel, puesto que se derriten a una temperatura un poquito superior a la del
-                    cuerpo humano, y que hidratan en profundidad además de dejar un aroma sutil y duradero. Contiene Cera de Soja, Manteca de Karité, Aceite de Almendras, Lavanda y Aceite Esencial de Ylang Ylang poderoso afrodisíaco</p>
-                <p><button>Agregar al Carrito</button></p>
-            </div>
-
-
-
-
-
-        </section>
-
+        <div class="product">
+          <img src="../assets/velas.jpg" class="image" alt="Velas" />
+          <h1 class="title">Velas</h1>
+          <p class="price">300$</p>
+          <p class="description">
+            Contiene Cera de Soja, Manteca de Karité, Aceite de Almendras,
+            Lavanda y Aceite Esencial de Ylang Ylang poderoso afrodisíaco
+          </p>
+          <button class="button">Agregar al Carrito</button>
+        </div>
+      </section>
     </main>
     <!-- Pie de pagina-->
     <footer class="footer">
-        <ul>
-          <li><a href="">Terms and Conditions</a></li>
-          <li><a href="">Terms of Use</a></li>
-          <li><a href="">Privacy Policy</a></li>
-          <li><a href="">FAQ</a></li>
+      <div class="column">
+        <ul class="list">
+          <li class="item"><a href="" class="link">Terms and Conditions</a></li>
+          <li class="item"><a href="" class="link">Terms of Use</a></li>
+          <li class="item"><a href="" class="link">Privacy Policy</a></li>
+          <li class="item"><a href="" class="link">FAQ</a></li>
         </ul>
-   <p class="footer1"></p>
-        *Proyecto por Macarena Elkin</p>
-      </footer>
-</body>
-
+        <p class="madeBy">Made with ❤️ by Macarena Elkin</p>
+      </div>
+    </footer>
+  </body>
 </html>
